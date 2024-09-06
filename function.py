@@ -82,8 +82,8 @@ def plot_actual_vs_predicted(y_train, y_pred_train, y_test, y_pred_test, figtitl
 
     # 检查并统一X轴和Y轴的刻度
     # 可以通过设置两个轴的相同刻度，或者根据数据自动选择刻度
-    x_ticks = np.arange(0, max(y_combined) + 1, 200)  # 可以根据数据范围调整
-    y_ticks = np.arange(0, max(y_combined) + 1, 200)  # 使得X和Y轴的刻度间隔相同
+    x_ticks = np.arange(0, max(y_combined) + 1, 400)  # 可以根据数据范围调整
+    y_ticks = np.arange(0, max(y_combined) + 1, 400)  # 使得X和Y轴的刻度间隔相同
 
     plt.xticks(x_ticks)
     plt.yticks(y_ticks)
